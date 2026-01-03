@@ -7,10 +7,10 @@
 
 ## CURRENT SPRINT
 
-**Active Task**: Ready for Phase 2 - Marketplace Core
-**Status**: Phase 1 Complete
+**Active Task**: Ready for Phase 3 - AI Generator
+**Status**: Phase 2 Complete
 
-**Completed**: 15/60 tasks (25%)
+**Completed**: 30/60 tasks (50%)
 
 ---
 
@@ -134,61 +134,61 @@ The migration file has been created at `supabase/migrations/20260102000000_initi
 
 ## PHASE 2: Marketplace Core (Tasks 16-30)
 
-- [ ] **TASK-016**: Build the block registry system
+- [x] **TASK-016**: Build the block registry system
   - Create lib/blocks/registry.ts with type definitions
   - Implement dynamic block metadata loading
   - Create block category constants
 
-- [ ] **TASK-017**: Build block file loader utility
+- [x] **TASK-017**: Build block file loader utility
   - Read block source code from filesystem
   - Parse TypeScript interfaces from blocks
   - Extract dependencies from imports
 
-- [ ] **TASK-018**: Create BlockCard component
+- [x] **TASK-018**: Create BlockCard component
   - Preview image with lazy loading
   - Block name, category badge, tier badge
   - View count, copy count stats
   - Hover animation with scale
 
-- [ ] **TASK-019**: Create BlockPreview component
+- [x] **TASK-019**: Create BlockPreview component
   - Live component rendering in iframe sandbox
   - Style switching with theme context
   - Responsive preview (desktop/tablet/mobile)
   - Loading skeleton state
 
-- [ ] **TASK-020**: Create CodeViewer component
+- [x] **TASK-020**: Create CodeViewer component
   - Syntax highlighting with Shiki
   - Line numbers
   - Copy button integration
   - Collapsible sections for long code
 
-- [ ] **TASK-021**: Create CopyButton component
+- [x] **TASK-021**: Create CopyButton component
   - Copy to clipboard with visual feedback
   - "Copy Code" mode (full source)
   - "Copy CLI" mode (npx command) - Pro only
   - Success/error toast notifications
 
-- [ ] **TASK-022**: Build StyleVisualizer component
+- [x] **TASK-022**: Build StyleVisualizer component
   - Global style toggle (Minimalist/High-Brand/Neo-Industrial)
   - Theme context provider
   - CSS variable injection
   - Persist preference to localStorage
 
-- [ ] **TASK-023**: Create blocks listing page (/dashboard/blocks)
+- [x] **TASK-023**: Create blocks listing page (/dashboard/blocks)
   - Category filter sidebar
   - Search input with debounce
   - Tier filter (Free/Pro)
   - Grid layout with BlockCards
   - Pagination or infinite scroll
 
-- [ ] **TASK-024**: Create block detail page (/dashboard/blocks/[slug])
+- [x] **TASK-024**: Create block detail page (/dashboard/blocks/[slug])
   - Full BlockPreview with style toggle
   - CodeViewer with copy options
   - Props documentation table
   - Related blocks carousel
   - Access gate for Pro blocks
 
-- [ ] **TASK-025**: Build first 5 Hero blocks
+- [x] **TASK-025**: Build first 5 Hero blocks
   - HeroGradient (free)
   - HeroCentered (free)
   - HeroSplit (free)
@@ -196,7 +196,7 @@ The migration file has been created at `supabase/migrations/20260102000000_initi
   - HeroAnimated (pro)
   - Include all 3 style variants each
 
-- [ ] **TASK-026**: Build first 5 Navbar blocks
+- [x] **TASK-026**: Build first 5 Navbar blocks
   - NavbarSimple (free)
   - NavbarWithDropdowns (free)
   - NavbarTransparent (free)
@@ -204,28 +204,28 @@ The migration file has been created at `supabase/migrations/20260102000000_initi
   - NavbarWithSearch (pro)
   - Include mobile responsive variants
 
-- [ ] **TASK-027**: Build first 5 Footer blocks
+- [x] **TASK-027**: Build first 5 Footer blocks
   - FooterSimple (free)
   - FooterColumns (free)
   - FooterWithNewsletter (free)
   - FooterMegaLinks (pro)
   - FooterWithSocial (pro)
 
-- [ ] **TASK-028**: Build first 5 Features blocks
+- [x] **TASK-028**: Build first 5 Features blocks
   - FeaturesGrid (free)
   - FeaturesAlternating (free)
   - FeaturesBento (free)
   - FeaturesWithIcons (pro)
   - FeaturesAnimated (pro)
 
-- [ ] **TASK-029**: Build first 5 CTA blocks
+- [x] **TASK-029**: Build first 5 CTA blocks
   - CTASimple (free)
   - CTAWithImage (free)
   - CTABanner (free)
   - CTAFloating (pro)
   - CTAAnimatedGradient (pro)
 
-- [ ] **TASK-030**: Implement block analytics tracking
+- [x] **TASK-030**: Implement block analytics tracking
   - Track view events (debounced)
   - Track copy events
   - Store in block_analytics table
@@ -439,11 +439,11 @@ The migration file has been created at `supabase/migrations/20260102000000_initi
 | Phase | Tasks | Completed | Remaining |
 |-------|-------|-----------|-----------|
 | 1. Foundation | 15 | 15 | 0 |
-| 2. Marketplace Core | 15 | 0 | 15 |
+| 2. Marketplace Core | 15 | 15 | 0 |
 | 3. Landing & Pricing | 10 | 0 | 10 |
 | 4. AI Generator | 10 | 0 | 10 |
 | 5. Polish & Deploy | 10 | 0 | 10 |
-| **TOTAL** | **60** | **15** | **45** |
+| **TOTAL** | **60** | **30** | **30** |
 
 ---
 
